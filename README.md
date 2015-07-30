@@ -2,7 +2,8 @@
 
 ### Step 1:
 
-Create the dev environment and jump onto the box:
+Create the dev environment and jump onto the box this bootstraps the vm with the core puppet packages:
+
 ```
 vagrant up
 vagrant ssh
@@ -22,6 +23,7 @@ Have a look at some of the facts that are present.
 
 
 ### Step 3: 
+
 Open up the first intro manifest and take a look:
 
 ```
@@ -29,7 +31,7 @@ vim /vagrant/lab1/site.pp
 
 ```
 
-If you read the comments you'll see some examples of resources, facts etc..
+If you read the comments you'll see some examples of resources, facts etc.. A complete list of native resources can be found in the puppet docs: 
 
 
 
