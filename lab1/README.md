@@ -27,7 +27,7 @@ Have a look at some of the facts that are present.
 Open up the first intro manifest and take a look:
 
 ```
-vim /vagrant/lab1/site.pp
+vim /devops_guild/lab1/site.pp
 
 ```
 
