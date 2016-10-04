@@ -1,0 +1,10 @@
+---
+:hierarchy:
+  - common
+
+:backends:
+  - yaml
+
+:yaml:
+  :datadir: /devops_guild/lab2/hiera
+

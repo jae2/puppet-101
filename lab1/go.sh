@@ -11,7 +11,7 @@ CODENAME=$(lsb_release -cs)
 sudo apt-get update
 sudo apt-get -yy install apt-transport-https
 echo "deb [arch=amd64] https://apt.puppetlabs.com/ ${CODENAME} main" | sudo tee /etc/apt/sources.list.d/puppetlabs.list
-sudo apt-key adv --recv-key --keyserver pgp.mit.edu 4BD6EC30
+sudo apt-key adv --recv-key --keyserver pgp.mit.edu 7F438280EF8D349F
 sudo apt-get update
 sudo apt-get -yy install \
     puppet-common=${PUPPET_COMMON_VERSION} \

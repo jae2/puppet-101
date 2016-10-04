@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+ruby '1.9.3'
+
+gem 'librarian-puppet'
+gem 'puppet-lint'
+gem 'rake'
+# Because that's what we use in prod
+gem 'puppet', '3.8.1'
+gem 'yaml-lint'
+gem 'hiera-eyaml'
