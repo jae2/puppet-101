@@ -1,1 +1,1 @@
-profiles::my_profile::output_value: testing
+profiles::my_profile::output_value: 'testing'

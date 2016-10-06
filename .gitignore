@@ -1,1 +1,5 @@
 .vagrant/
+.librarian/
+.tmp/
+.yardoc/
+.DS_Store

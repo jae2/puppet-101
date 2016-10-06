@@ -6,5 +6,5 @@
   - yaml
 
 :yaml:
-  :datadir: /devops_guild/lab2/hiera
+  :datadir: /devops_guild/lab3/hiera
 
